@@ -1,20 +1,28 @@
 // ini js
 
 
-    document.getElementById('count').addEventListener('click', function (event)
-    {
-        event.preventDefault () ;
+const s1Input = document.getElementById("s1");
+const s2Input = document.getElementById("s2");
+const s3Input = document.getElementById("s3");
+const resultDiv = document.getElementById("result");
 
-        let s1 = parseFloat(document.getElementById('s1').value) ;
-        let s2 = parseFloat(document.getElementById('s2').value) ;
-        let s3 = parseFloat(document.getElementById('s3').value) ;
- 
-        if (s1 > 0 && s2 > 0 && s3 > 0) {
-            let keliling = s1 + s2 + s3;
 
-    document.getElementById('result').innerHTML = ("K=S1 + S2 + S3" + "<br>" + "K = "+ s1 +" + " + s2 + "+" + s3 + "<br>" + 
-    "K = " + Keliling);
-         } else {
-            document.getElementById('result').innerText ='Mohon Masukkan Angka Positif yang Valid' ;
-        }
-    });
+document.getElementById("count").addEventListener("click", function() {
+    
+    const s1 = parseFloat(s1Input.value);
+    const s2 = parseFloat(s2Input.value);
+    const s3 = parseFloat(s3Input.value);
+
+    
+    if (isNaN(s1) || isNaN(s2) || isNaN(s3) || s1 <= 0 || s2 <= 0 || s3 <= 0) {
+        resultDiv.textContent = "Invalid input. Please enter valid side lengths.";
+    } else {
+        
+        const perimeter = s1 + s2 + s3;
+        
+        resultDiv.textContent = "Keliling segitiga: " + perimeter.toFixed(2);
+    }
+});
+        
+        
+        
