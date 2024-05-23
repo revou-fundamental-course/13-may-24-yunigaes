@@ -1,14 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yuni Assignment</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Welcome to My Calculator</h1>
+        <section>
+            <p>
+                Hai guys, This is my Mini Project!
+            </p>
+        </section>
+    </header>
+
+    <section>
+        <div class="section-content">
+            <h3>Segitiga</h3>
+        </div>
+
+            <button type="button" id="Keliling Segitiga">
+            <a href=#halaman-keliling>Switch ke Keliling Segitiga</a>
+             </button>
     
+        </div>
+             
+        <div class="wide-content">
+             <h2>Luas Segitiga</h2>
+        </div>
+    </section>
+
+        <div class="rumus-luas">
+        <h3>Rumus Luas Segitiga</h3>
+
+         </div>
+    
+
+            <div class="formula-img">
+                <img 
+                    src="https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2022/10/5-8.jpg?width=450&quality=90">
+            </div>
+
+            <p>Keterangan:</p> 
+            <p>L= luas Segitiga</p>
+            <p>a = panjang alas segitiga</p>
+            <p>t = tinggi segitiga</p> 
+        </section>
+
+        <section>
+            <div class="wide-formula">
+                <h4>Hitung Luas Segitiga</h4>
+            </div>   
+
+                <label id="">Alas Segitiga</label><br>
+                <input type="number" id="alas"><br>
+                <label id="">Tinggi Segitiga</label><br>
+                <input type="number" id="tinggi"><br>
+                <button id="hitung">Hitung</button>
+                
+
+                <div id="output"></div>
+
+                <script>
+                        
+                        const alas = document.getElementById('alas')
+                        const tinggi = document.getElementById('tinggi')
+                        const hitung = document.getElementById('hitung')
+                        const output = document.getElementById('output')
+                     
+
+                        
+                        hitung.addEventListener('click', function(){
+                            let a = alas.value
+                            let t = tinggi.value
+                            let l = 0.5*a*t
+
+                        output.innerHTML = `Luas Segitiga dari alas ${a} cm dan tinggi ${t} cm adalah ${l} cm`
+                    })
+
+
+                    
+                </script>
+        </section>
+         <section id="halaman-keliling">
+            <h2>Keliling Segitiga</h2>
+        </section>
+            
+        <div class="rumus-img">
+                <img 
+                    src=https://watitrisia.wordpress.com/wp-content/uploads/2013/06/4.jpg>
+        </div>
+
+        <section class="formula-keliling">
+             <h1>Rumus Keliling Segitiga:</h1>
+        </section>
+             <div class="section-keliling">
+                <h1>K= S1+S2+S3</h1>
+             </div>
+         
+     <header>
+        <section class="formula-perimeter">
+            <h4>Hitung Keliling Segitiga</h4>
+         </section>
+    </header>
+
+        <section>
+
+<body>
+
+
+    <label id="">S1 (Sisi 1)</label><br>
+    <input type="number" id="s1"><br>
+    <label id="">S2 (Sisi 2)</label><br>
+    <input type="number" id="s2"><br>
+    <label id="">S3 (Sisi 3)</label><br>
+    <input type="number" id="s3"><br>
+
+    <button id="count">Hitung</button>
+
+    <div id="result"></div>
+       
+
+<script src="js/script.js"></script>
 </body>
 
 </html>

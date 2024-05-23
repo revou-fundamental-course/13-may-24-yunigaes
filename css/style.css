@@ -1,1 +1,192 @@
 /* ini css */
+
+.section-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 20%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    border: 0px;
+    margin: 0;
+    border-radius: 10px;
+    margin-left: 40%;
+    background-color: cadetblue;
+}
+
+button#Keliling\ Segitiga {
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border: 0px;
+    color: blue;
+    margin-top: 20px;
+
+}
+
+.wide-content {
+    text-align: center;
+    background-color: mediumvioletred;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    border: 0;
+}
+
+.rumus-luas {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 30px;   
+}
+
+.formula-img {
+    text-align: center;
+    height: 150px;
+}
+
+img {
+    height: 150px
+}
+
+.wide-formula {
+    text-align: center;
+    background-color: lavender;
+    width: 20%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+
+
+
+
+h2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    text-align: center;
+    background-color: mediumvioletred;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+input {
+    background-color: mistyrose;
+    border: 1px solid mediumvioletred;
+    border-radius: 4px;
+    font-family: math;
+    width: 30%;
+    padding: 5px;
+}
+
+button#hitung {
+    padding: 18px;
+    background-color: greenyellow;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 0;
+    font-weight: bold;
+
+}
+
+button#reset {
+    padding: 18px;
+    background-color: red;
+    border: 0;
+    font-weight: bold;
+    margin-top: 1%;
+    color: white;
+}
+
+div#output{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    width: 30%
+    
+    
+    
+}
+
+.rumus-img {
+    text-align: center;
+
+}
+
+.formula-keliling {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+    
+.section-keliling  {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: lavender;
+    width: 50%;
+    border-radius: 40px;
+    margin-left: 300px;
+}
+
+.rumus-keliling {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+
+.formula-perimeter {
+    text-align: center;
+    background-color: lavender;
+    width: 20%;
+    margin-left: 0%;
+    margin-top: 4%;
+}
+
+button#count {
+    padding: 18px;
+    background-color: greenyellow;
+    margin-top: 50px;
+    border: 0;
+    font-weight: bold;
+    margin-bottom: 100px;
+
+}
+
+#reset-button {
+    padding: 19px;
+    background-color: red;
+    border: 0;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+div#result {
+color: black;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    width: 30%
+}
